@@ -36,3 +36,7 @@ div
                     a(href='divers') Autres
                 li
                     a(href='terms') Conditions 
+                |    
+    form#searchthis(action="/archive" method="get")
+        input#search(name="q" type="text" placeholder="Année de l'archive")
+        input#search-btn(type="submit" value="Rechercher")
